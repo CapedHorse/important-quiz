@@ -18,7 +18,7 @@ var initPos = noBtn.getBoundingClientRect();
 function onClickyes() {
     console.log("Clicked Yes");
     //show congratulation div
-    mainDiv.style.visibility = "hidden";
+    mainDiv.style.display = "none";
     congratsDiv.style.visibility = "visible";
 }
 

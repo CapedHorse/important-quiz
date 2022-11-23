@@ -20,6 +20,17 @@ body {
     
 }
 
+.congratsContainer {
+    
+    height: 100%;
+    width: 100%;
+	margin: auto;
+    padding-top: 5%;
+	padding-left: 10px;
+	padding-right: 10px;
+    
+}
+
 #main {
     visibility:visible;
     
@@ -43,6 +54,14 @@ body {
     text-shadow: 3px 3px #003a22;
     
     font-size: 64px;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10%;
+    width: 25%;
 }
 
 .btnParent {
