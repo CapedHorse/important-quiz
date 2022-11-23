@@ -1,0 +1,101 @@
+html {
+	scroll-behavior: smooth;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    
+    background-size: cover;
+    background-color: rgb(0, 177, 118);
+}
+
+.container {
+    
+    height: 100%;
+    width: 100%;
+	margin: auto;
+    padding-top: 10%;
+	padding-left: 10px;
+	padding-right: 10px;
+    
+}
+
+#main {
+    visibility:visible;
+    
+}
+
+#congrats {
+    visibility: hidden;
+}
+
+.title {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px #003a22;
+    
+    font-size: 64px;
+}
+
+.congratulations {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px #003a22;
+    
+    font-size: 64px;
+}
+
+.btnParent {
+    text-align: center;
+}
+
+.btn {
+    position: absolute;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 2px 2px #003a22;;
+    
+    height: 50px;
+    width: 100px;
+    font-weight: bolder;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #003a22;
+}
+
+.btn:hover {
+    box-shadow: 0px 0px ;
+    text-shadow: 0px 0px ;
+    color: rgb(0, 0, 0);
+}
+
+#yesBtn {
+    left: 40%;  
+    background-color: rgb(0, 255, 42);
+}
+
+#yesBtn:hover {
+    background-color: rgb(184, 252, 195);
+    /* color: rgb(100, 100, 100); */
+}
+
+#noBtn {
+    left: 50%;  
+    background-color: red;
+}
+
+#noBtn:hover {
+    background-color: rgb(255, 166, 166);
+    /* color: rgb(100, 100, 100); */
+}
+
+.blink_me {
+    animation: blinker 0.5s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+        color: red;
+      
+    }
+  }
